@@ -1,0 +1,73 @@
+.container {
+
+    display: flex;
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+#uno, #dos, #tres {
+
+    width: 320px;
+    height: 470px;
+    background-color: pink;
+    border-radius: 10px;
+    /*siempre ponerle tres medidas al box-shadow + color*/
+    box-shadow: 10px 10px 10px paleturquoise;
+}
+
+
+img{
+    /*Para que solo rendodee la parte de arriba left y right*/
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: hotpink;
+    width: 320px;
+    height: 200px;
+    padding-top: 5px;
+}
+
+p {
+    padding: 3px;
+    text-align: center;
+}
+
+.botones1 {
+    background-color: deeppink;
+    border: none;
+    color: azure;
+    text-align: center;
+    padding: 15px 32px;
+    text-decoration: none;
+    margin-left: 55px;
+    margin-right: 25px;
+    font-size: 12px;
+   
+}
+
+.botones2 {
+
+    background-color: palevioletred;
+    border: none;
+    color: azure;
+    text-align: center;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 12px;
+    margin-left: 10x;
+   
+}
+
+.botones1:hover {
+
+    background-color: mediumorchid;
+}
+
+.botones2:hover {
+
+    background-color: lightskyblue;
+}
+
+
